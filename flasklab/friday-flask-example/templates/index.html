@@ -4,6 +4,8 @@
 <head>
     <title>Fun With Random Numbers</title>
     <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <script src="/static/fetchAnswer.js">
+    </script>
 </head>
  
 <body class="home">
@@ -17,8 +19,10 @@
     <option value="divide">Divide</option>
   </select>
   <input type="number" name="y">
+  <button type="button" onclick="fetchAnswer()">Calculate</button>
+  <p>=<span id="ans"></span></p>
   
-
+  
 </body>
  
 </html>
