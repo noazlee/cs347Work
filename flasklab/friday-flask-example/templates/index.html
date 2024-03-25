@@ -4,21 +4,20 @@
 <head>
     <title>Fun With Random Numbers</title>
     <link rel="stylesheet" type="text/css" href="/static/style.css">
-    <script src="/static/fetchAnswer.js">
-    </script>
+    <script src="/static/fetchAnswer.js"></script>
 </head>
  
 <body class="home">
   <h2>Flask Warmup</h2>
   <h3>Please Input two numbers and an operation.</h3>
-  <input type="number" name="x">
+  <input type="number" id="x">
   <select name="operation">
     <option value="plus">Plus</option>
     <option value="minus">Minus</option>
     <option value="times">Times</option>
     <option value="divide">Divide</option>
   </select>
-  <input type="number" name="y">
+  <input type="number" id="y">
   <button type="button" onclick="fetchAnswer()">Calculate</button>
   <p>=<span id="ans"></span></p>
   
