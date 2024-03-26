@@ -1,0 +1,25 @@
+.section {
+    padding-top: 80px;
+  }
+  
+  .image {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  
+  .text {
+    margin: 0;
+    padding: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: justify;
+    color: #ffffff;
+    background: #b8b8b8;
+    text-shadow: 2px 2px 0 #7a7a7a;
+  }
+  

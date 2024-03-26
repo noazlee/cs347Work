@@ -1,0 +1,22 @@
+.container {
+    background-color: lightcoral;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .text {
+    font-size: 20px;
+    color: lightcyan;
+  }
+  
+  .link {
+    text-decoration: none;
+    font-size: 20px;
+    color: lightblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+  }
+  
