@@ -1,8 +1,8 @@
 // Import of all components
-import Section from "../Section/Section";
-import Bar from "../Bar/Bar";
-import Footer from "../Footer/Footer";
-import Information from "../Information/Information";
+import Section from "./Section/Section";
+import Bar from "./Bar/Bar";
+import Footer from "./Footer/Footer";
+import Information from "./Information/Information";
 
 // Creation of the whole app
 const App = () => (
